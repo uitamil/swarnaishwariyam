@@ -894,6 +894,23 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	display:none;
 }
 
+.Enrol_btn.text-center h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+	margin-left: 25%;
+    padding-top: 20px;
+    
+}
+.Enrol_btn.text-center h3 a{
+    background: #AA3D3D;
+    border-radius: 17px;
+	color: #FFFFFF;
+	padding:5px 20px;
+}
 @media only screen and (min-width:992px) and (max-width:1024px){
     .infographic-wrapper{
         width: 100%;
@@ -944,23 +961,20 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (min-width:600px) and (max-width:767px){
+	.inner_cont {
+    padding: 60px 0px;
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
     .infographic-wrapper{
         width: 100%;
     }
     .inner_cont h1{
         font-size: 32px;
-        text-align: left;
-    }
-    .inner_cont h3 {
-        font-size: 22px;
-        width: 305px;
-        text-align: left;
     }
     .inner_cont h3.buy_prt:after{
         width: 100%;
-    }
-    .inner_cont h4{
-        text-align: left;
     }
     .subheadingprt.text-center h3 {
         font-size: 42px;
@@ -989,6 +1003,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 @media only screen and (max-width: 767px) and (min-width: 320px){
 	.mobile_view{
 	display:block;
+	    text-align: center;
 }
 .banner_section {
     background: url(../images/ishwariyam/mobilebg.png) no-repeat;
@@ -1017,7 +1032,7 @@ span.cou_rupee {
 .subheadingprt.text-center h3 {
     font-size: 30px;
 }
-.infographic-wrapper.desktop_view {
+.desktop_view {
     display: none;
 }
 .infographic-wrapper {
