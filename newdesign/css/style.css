@@ -1010,12 +1010,25 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
 
 @media only screen and (max-width: 767px) and (min-width: 320px){
+	.banner_section:after{
+		content:unset;
+	}
+	.subheadingprt.text-center .inner_cont h3 {
+    font-size: 20px;
+	}
+	.subheadingprt.text-center .inner_cont span.cou_rupee {
+    font-size: 20px;
+}
+
 	.mobile_view{
 	display:block;
 	    text-align: center;
 }
 .sub-r2 {
     margin-top: 0;
+}
+section.banner_section .row {
+    margin: 0px;
 }
 .banner_section {
     background: url(../images/ishwariyam/mobilebg.png) no-repeat;
@@ -1031,6 +1044,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .inner_cont h3 {
     font-size: 18px;
+	    margin-top: 20px;
 }
 .inner_cont h4 {
     font-size: 16px;
